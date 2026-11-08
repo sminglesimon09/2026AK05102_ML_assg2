@@ -1,13 +1,11 @@
 # Steel Plate Fault Classification
 
-Live app: <STREAMLIT_LINK>
-
 ## a. Problem statement
 Classify steel plates into one of 7 fault types (Pastry, Z_Scratch, K_Scatch,
 Stains, Dirtiness, Bumps, Other_Faults) from 27 geometric and luminosity
 measurements, to support automated quality inspection.
 
-## b. Dataset description  [1 mark]
+## b. Dataset description
 - Source: UCI Machine Learning Repository, Steel Plates Faults
 - Instances: 1941 | Features: 27 | Classes: 7
 - Feature groups: position (X/Y min/max), area and perimeter, luminosity,
@@ -16,10 +14,7 @@ measurements, to support automated quality inspection.
 - Preprocessing: merged the 7 binary fault columns into one class label,
   StandardScaler fitted on the training split, stratified 75/25 split, seed ___
 
-## c. GitHub repository link  [1 mark]
-<GITHUB_LINK>
-
-## d. Models used  [5 marks]
+## C. Models used  
 
 | ML Model Name | Accuracy | AUC | Precision | Recall | F1 | MCC |
 |---|---|---|---|---|---|---|
